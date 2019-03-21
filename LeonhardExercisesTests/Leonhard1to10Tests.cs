@@ -1,5 +1,8 @@
 using LeonhardExercises;
 using NUnit.Framework;
+using System;
+using System.Diagnostics;
+
 namespace Tests
 {
     public class Leonhard1to10Tests
@@ -35,6 +38,22 @@ namespace Tests
         {
             var actual = Leonhard1to10Exercises.Problem2(4000000);
             Assert.AreEqual(4613732, actual);
+        }
+
+        [Test]
+        public void Problem3Test()
+        {
+            var result = Leonhard1to10Exercises.Problem3(120);
+
+            Assert.AreEqual(7, result);
+        }
+
+        [Test]
+        public void Problem3Test2()
+        {
+           var result =  Leonhard1to10Exercises.Problem3(600851475143);
+            
+            Assert.AreEqual(6857, result);
         }
     }
 }

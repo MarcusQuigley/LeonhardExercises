@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,11 +12,11 @@ namespace LeonhardExercises
         public static int Problem1(int limit)
         {
             int result = 0;
-            if (limit>2)
+            if (limit > 2)
             {
                 for (int i = 1; i < limit; i++)
                 {
-                    if (i % 3==0 || i % 5 == 0)
+                    if (i % 3 == 0 || i % 5 == 0)
                     {
                         result += i;
                     }
@@ -42,6 +43,21 @@ namespace LeonhardExercises
             return result;
         }
 
-         
+        public static long Problem3(long limit)
+        {
+            List<long> primes = new List<long>();
+            long d = 2;
+            while (limit > 1)
+            {
+                while (limit % d == 0)
+                {
+                    primes.Add(d);
+                    limit /= d;
+                }
+                d += 1;
+            }
+            return primes.Max();
+        }
+
     }
 }
