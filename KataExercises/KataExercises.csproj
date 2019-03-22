@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayKatas.cs" />
+    <Compile Include="MoreArrayQuestions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringKatas.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

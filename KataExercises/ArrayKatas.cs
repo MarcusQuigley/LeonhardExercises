@@ -139,5 +139,16 @@ namespace KataExercises
 
             return count;
         }
+
+
+         
+
+        
+
+        // given an array of integers where each element appears 
+        //an even number of times and only one element appears 
+        //an odd number of times, find the latter.
+
+        
     }
 }
