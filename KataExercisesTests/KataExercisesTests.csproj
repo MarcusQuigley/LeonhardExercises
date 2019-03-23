@@ -62,6 +62,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="LinkedListKatasTests.cs" />
     <Compile Include="ArrayKatasTests.cs" />
     <Compile Include="MoreArrayQuestionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

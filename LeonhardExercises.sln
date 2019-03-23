@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresStudyTest", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresStudyConsole", "DataStructuresStudyConsole\DataStructuresStudyConsole.csproj", "{94B79686-3FF0-4E6F-858F-9BF0EA5E0329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataExercisesConsole", "KataExercisesConsole\KataExercisesConsole.csproj", "{0F651167-0B95-43ED-9063-D0845E6D5C80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{94B79686-3FF0-4E6F-858F-9BF0EA5E0329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B79686-3FF0-4E6F-858F-9BF0EA5E0329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94B79686-3FF0-4E6F-858F-9BF0EA5E0329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F651167-0B95-43ED-9063-D0845E6D5C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F651167-0B95-43ED-9063-D0845E6D5C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F651167-0B95-43ED-9063-D0845E6D5C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F651167-0B95-43ED-9063-D0845E6D5C80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
